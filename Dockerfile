@@ -1,6 +1,6 @@
 FROM didstopia/base:nodejs-steamcmd-ubuntu-16.04
 
-MAINTAINER Mdarkness1988 <>
+MAINTAINER heccin-pengu <>
 
 # Fix apt-get warnings
 ARG DEBIAN_FRONTEND=noninteractive
@@ -129,6 +129,7 @@ ENV PASSWORD ""
 ENV BANNER ""
 ENV PLAYERS ""
 ENV MAPSIZE ""
+ENV MAPURL ""
 ENV PERFORMANCE ""
 ENV IDENTITY ""
 ENV PORTFORWARD_RUST ""
